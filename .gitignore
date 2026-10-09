@@ -1,0 +1,31 @@
+# ===== 私钥 / 证书（切勿提交）=====
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*privkey*
+id_rsa*
+id_ed25519*
+*.ppk
+
+# 常见证书文件名（即便扩展名例外也拦住）
+cert.key
+cert.pem
+fullchain.pem
+privkey.pem
+*.crt
+
+# ===== 运行时 / 日志 / 临时 =====
+logs/
+temp/
+*.pid
+*.log
+
+# ===== 本机杂项 =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
+新建文本文档.txt
